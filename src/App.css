@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@media(min-width : 959px){
+
+
+#dropwrap{
+  display: none;
+}
+}
+
+@media(max-width : 959px) {
+
+  
+  .Hnavlist{
+    display: none;
+    left:0px;
+    right:0px;
+     }
+   #dropwrap{
+     position: fixed;
+     left:80%;
+     top:20px;
+   }
+
+  }
+
+
+  
+ @media(max-width : 408px) {
+
+#dropwrap{
+  position: absolute;
+  left:70%;
+}
+
+    
+     } 

@@ -1,0 +1,182 @@
+.Hmainwrap{
+    position: fixed;
+    width:100%;
+    height:75px;
+    background-color: #143d59;
+}
+
+.Himgcont{
+    position: relative;
+    left:80px;
+    width:310px;
+    height:75px;
+}
+
+.Himgwrap{
+    position: absolute;
+    top:9px;
+    width:80%;
+    height:90%;
+    background-image: url("http://www.edbudz.in/wp-content/uploads/2020/05/edbudzlogo-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    transition: 0.3s;
+}
+.Himgwrap:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    
+   
+}
+li{
+    float:left;
+    padding-left: 3%;
+   font-family: "Laila", Sans-serif;
+   font-weight: bold;
+   color:#f4b41a;
+   font-size: 15px;
+   cursor: pointer;
+   height:40px;
+   
+}
+
+
+.Hnavlist{
+    position: relative;
+    top:-63px;
+    left:42%;
+}
+
+
+.Hlist1:hover::after{
+    content: "";
+    position: absolute;
+
+    display: block;
+    width:5%;
+    height:2px;
+    background-color: red;
+}
+
+
+.Hlist1:hover::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width:5%;
+    height:2px;
+    background-color: red;
+}
+
+.Hlist2:hover::after{
+    content: "";
+    position: absolute;
+
+    display: block;
+    width:3%;
+    height:2px;
+    background-color: red;
+}
+
+
+.Hlist2:hover::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width:3%;
+    height:2px;
+    background-color: red;
+}
+
+.Hlist3:hover::after{
+    content: "";
+    position: absolute;
+
+    display: block;
+    width:4%;
+    height:2px;
+    background-color: red;
+}
+
+
+.Hlist3:hover::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width:4%;
+    height:2px;
+    background-color: red;
+}
+.Hlist4:hover::after{
+    content: "";
+    position: absolute;
+
+    display: block;
+    width:6%;
+    height:2px;
+    background-color: red;
+}
+
+
+.Hlist4:hover::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width:6%;
+    height:2px;
+    /* color:white; */
+    background-color: red;
+}
+
+.Hlist1:hover , .Hlist2:hover , .Hlist3:hover , .Hlist4:hover{
+   color:white;
+   /* transition: all 1s ; */
+}
+
+.Hlist1::after , .Hlist2::after , .Hlist3::after , .Hlist4::after{
+    content: "";
+    margin-top: 2px;
+    display: block;
+       transition:  0.422s ease-in-out ;
+
+}
+
+
+.Hlist1::before , .Hlist2::before , .Hlist3::before , .Hlist4::before{
+    content: "";
+    display: block;
+    margin-top: -2px;
+       transition:  0.422s ease-in-out ;
+
+}
+
+ @media(max-width : 456px) {
+
+  .Himgcont{
+    position: relative;
+    left:10px;
+    width:70%;
+    height:75px;
+  }
+
+  .Himgwrap{
+    position: absolute;
+    top:20px;
+    width:80%;
+    height:90%;
+    background-image: url("http://www.edbudz.in/wp-content/uploads/2020/05/edbudzlogo-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+
+
+
+    
+     } 
